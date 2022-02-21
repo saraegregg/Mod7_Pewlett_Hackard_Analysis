@@ -19,10 +19,12 @@ A human resources team at Pewlett Hackard, a large technology company, has been 
 
 ### Retiring Employees by Job Title
 ![employees_ret_by_title.png](https://github.com/saraegregg/Mod7_Pewlett_Hackard_Analysis/blob/main/images/employees_ret_by_title.png)
+
 To find the number of employees retiring by their job title, firstly I joined the employee and title tables in the database into a new table, filtered by the employees of retirement age. To remove the duplicate entries of employees who have had multiple job titles in the company over the years and find those who were still employed, I used the distinct on statement paired with a filter set to only workers currently employed. Finally, I wrote a query that counted and grouped the retiring employees by their current job title, resulting in the preceding table.
 
 ### Employees Poised for Mentorship
 ![mentorship_eligible_employes.png](https://github.com/saraegregg/Mod7_Pewlett_Hackard_Analysis/blob/main/images/mentorship_eligible_employes.png)
+
 In order to find the workers who would be prime candidates for mentorship, I joined the employees, titles, and department employee tables, filtering by a birthdate in 1965 as well as an active employee status, and finally creating a new table to hold the data. 
 
 
